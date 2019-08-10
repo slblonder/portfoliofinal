@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Samantha Blonder Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+<link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet"> 
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script src="index.js"></script>
+
+
+</head>
+<body>
+    <main role="main">
+        <header role="banner">
+          <div class="logo"><img src="https://i.imgur.com/fIQn5jpm.png" alt="A picture of me"/></div>
+            <h1>Samantha Blonder</h1>
+        </header>
+    
+    <nav role="navigation"> 
+       <div class="toggle">
+        <input type="checkbox" class="hamburger"/>
+
+          <span></span>
+          <span></span>
+          <span></span>
+        
+      <ul class="menu">
+			<!--<li><a href="#" target="_blank">Home</a> </li> -->
+			<li> <button id="contact">Email</button></li>
+
+			<li><a href="https://github.com/slblonder" target="_blank">Github</a> </li>
+      <li><a href="https://www.linkedin.com/in/samantha-blonder-9574098b/" target="_blank">LinkedIn</a> </li>
+		</ul> 
+    </div>
+    </nav>
+        <section class="bio">
+          <h2> About Me </h2> 
+          <p> Hi, I’m Samantha. I am work in progress to become a full stack developer. </p>
+           <p>
+            I am currently enrolled in Thinkful’s Full Stack Flex Bootcamp. My previous degrees include a BS in Biology and a MS in Environmental Science. I love how computer coding has changed and integrated the world, I enjoy coding and solving problems to make the world a better place. I love that computer coding is a continuous learning experience and there are always new areas for development. </p>
+            
+            <p> 
+            When I’m not exploring the coding realm, I can be found enjoying nature, playing with animals & traveling to different places.  I have recently moved to Phoenix, Arizona from Florida, so I am excitedly exploring new terrain, meeting new people and trying all the new restaurants. </p>
+        </section>
+
+        <section class="projects">
+          <h2> Projects </h2>
+            <h3> Phytoplankton Quiz App </h3> 
+
+            <img src="https://i.imgur.com/mdWQdeM.png" alt="screen capture of phytoplankton quiz" id="phytoquiz"/>
+            <p> This app uses JQuery to implement a quiz with a start screen, tally of points, question number, and pop-up questions. It concludes with a results page and allows restart. </p> 
+             <ul>
+              <li><a href="https://blonder-phytoplankton-quiz--sblonder.repl.co/" target="_blank">Live Repl.it</a></li>
+
+             <li><a href="https://github.com/slblonder/sb-quiz-app-/tree/master" target="_blank"> Github Repo</a></li>
+             </ul>
+
+            <div class="technologies">
+             <ul>Technologies Used:<br>
+             <li>HTML5</li>
+             <li>CSS</li>
+              <li>JS</li>
+              </ul>
+            </div>
+        </section>
+
+
+  <section id="contactForm">
+
+  <h1>Contact Me: </h1>
+  
+  <form action="https://mailthis.to/sblonder" method="post" encType="multipart/form-data">
+    <input placeholder="Name" type="text" name="Name " required />
+    <input placeholder="Email" type="email" name="email" required />
+    <input placeholder="Subject" type="text" name="subject " required />
+    <textarea> </textarea>
+    <input class="contactButton" type="submit" name="message " value="Submit"/>
+    <input class="contactButton" type="reset">
+  </form>
+</section>
+
+    </main>
+    <footer role="content-info"> © 2019</footer>
+</body>
+</html>
